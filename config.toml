@@ -3,7 +3,6 @@ theme = "jetbrains_dark"
 [editor]
 line-number = "relative"
 color-modes = true
-end-of-line-diagnostics = "hint"
 
 [editor.cursor-shape]
 normal = "bar"
