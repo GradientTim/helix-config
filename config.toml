@@ -1,0 +1,18 @@
+theme = "jetbrains_dark"
+
+[editor]
+line-number = "relative"
+color-modes = true
+end-of-line-diagnostics = "hint"
+
+[editor.cursor-shape]
+normal = "bar"
+insert = "bar"
+select = "bar"
+
+[editor.indent-guides]
+render = true
+
+[keys.insert]
+S-up = ["extend_to_line_bounds", "delete_selection", "move_line_up", "paste_before"]
+S-down = ["extend_to_line_bounds", "delete_selection", "paste_after"]
